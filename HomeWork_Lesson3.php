@@ -124,7 +124,7 @@ $secondElement = [];
 
 foreach ($firstArr as $key => $value) {
     if (is_array($value)) {
-        $secondValue = array_values($value)[1];
+        $secondValue = array_values($value)[1] ?? NULL;
         $secondElement[$key] = $secondValue;
     }
 }
