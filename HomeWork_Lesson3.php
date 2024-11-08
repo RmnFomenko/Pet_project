@@ -5,6 +5,7 @@ $arr = [1, 2, 3, 7, 31, 4, 1, 8, 6];
 // посчитать длину массива
 $length = count($arr);
 var_dump('посчитать длину массива', $length);
+echo '<br/>';
 
 //переместить первые 4 элемента массива в конец массива
 
@@ -13,12 +14,15 @@ for ($i = 0; $i < 4; $i++) {
     array_push($arr, $firstElement);
 }
 var_dump('переместить первые 4 элемента массива в конец массива', $arr);
+echo '<br/>';
 
 //получить сумму 4,5,6 элемента
 var_dump ($sum = $arr[3] + $arr[4] + $arr[5]);
+echo '<br/>';
 
 $sumOther = array_sum(array_slice($arr, 3, 3));
 var_dump ('получить сумму 4,5,6 элемента', $sumOther);
+echo '<br/>';
 
 
 // Второй этап задач
@@ -58,16 +62,19 @@ $secondArr = [
 
 $differentArr = array_diff_key($secondArr, $firstArr);
 var_dump ('найти все элементы которые отсутствуют в первом массиве и присутствуют во втором', $differentArr);
+echo '<br/>';
 
 // найти все элементы которые присутствую в первом и отсутствуют во втором
 
 $differentArr2 = array_diff_key($firstArr, $secondArr);
 var_dump ('найти все элементы которые присутствую в первом и отсутствуют во втором', $differentArr2);
+echo '<br/>';
 
 // найти все элементы значения которых совпадают
 
 $array_intersect = array_intersect($firstArr, $secondArr);
 var_dump ('найти все элементы значения которых совпадают', $array_intersect);
+echo '<br/>';
 
 // найти все элементы значения которых отличается
 
@@ -75,7 +82,8 @@ var_dump ('найти все элементы значения которых с
 $array_diff = array_diff($firstArr, $secondArr);
 $array_diff2 = array_diff($secondArr, $firstArr);
 $array_merge = array_merge($array_diff, $array_diff2);
-var_dump($array_merge);
+var_dump('найти все элементы значения которых отличается', $array_merge);
+echo '<br/>';
 
 
 
@@ -129,7 +137,8 @@ foreach ($firstArr as $key => $value) {
     }
 }
 
-var_dump($secondElement);
+var_dump('получить все вторые элементы вложенных массивов', $secondElement);
+echo '<br/>';
 
 
 //получить общее количество элементов в массиве
@@ -142,7 +151,8 @@ foreach ($firstArr as $element) {
         $allElements++;
     }
 }
-var_dump($allElements);
+var_dump('получить общее количество элементов в массиве', $allElements);
+echo '<br/>';
 
 
 //получить сумму всех значений в массиве
@@ -157,7 +167,8 @@ foreach ($firstArr as $value) {
         $allSum += $value;
     }
 }
-var_dump($allSum);
+var_dump('получить сумму всех значений в массиве', $allSum);
+echo '<br/>';
 
 
 ?>
