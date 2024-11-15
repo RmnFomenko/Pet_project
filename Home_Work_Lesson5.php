@@ -5,7 +5,7 @@
 // Каждое свойство должно иметь геттеры и сеттеры
 // Должен содержать абстрактную функцию возведения в степень
 
-class ParentClass {
+abstract class ParentClass {
     private $property1;
     private $property2;
 
@@ -25,9 +25,8 @@ class ParentClass {
         $this->property2 = $value;
     }
 
-    public function calculatePower($base, $exponent) {
-        return pow($base, $exponent);
-    }
+    // Абстракция для возведения в степень
+    abstract public function calculatePower($base, $exponent);
 }
 
 // Задача 2: Создать 3 наследника родительского класса
@@ -37,9 +36,8 @@ class ParentClass {
 // Один наследник не должен быть наследуемым
 
 // Наследник 1
-
 class Child1 extends ParentClass {
-    protected $childProperty;
+    private $childProperty;
 
     public function getChildProperty() {
         return $this->childProperty;
@@ -52,12 +50,16 @@ class Child1 extends ParentClass {
     public function addProperties() {
         return $this->getProperty1() + $this->childProperty;
     }
+
+    // Реализация абстракции
+    public function calculatePower($base, $exponent) {
+        return pow($base, $exponent);
+    }
 }
 
 // Наследник 2
-
 class Child2 extends ParentClass {
-    protected $childProperty;
+    private $childProperty;
 
     public function getChildProperty() {
         return $this->childProperty;
@@ -70,12 +72,16 @@ class Child2 extends ParentClass {
     public function subtractProperties() {
         return $this->getProperty2() - $this->childProperty;
     }
+
+    // Реализация абстракции
+    public function calculatePower($base, $exponent) {
+        return pow($base, $exponent);
+    }
 }
 
-// Наследник 3
-
+// Наследник 3 (финальный класс, нельзя наследовать)
 final class Child3 extends ParentClass {
-    protected $childProperty;
+    private $childProperty;
 
     public function getChildProperty() {
         return $this->childProperty;
@@ -88,6 +94,11 @@ final class Child3 extends ParentClass {
     public function multiplyProperties() {
         return $this->getProperty1() * $this->childProperty;
     }
+
+    // Реализация абстракции
+    public function calculatePower($base, $exponent) {
+        return pow($base, $exponent);
+    }
 }
 
 // Задача 3: Создать по 2 наследника от наследников первого уровня
@@ -95,8 +106,7 @@ final class Child3 extends ParentClass {
 // Наследники должны реализовать по одному методу, который выполняет одно математическое действие с данными родителя и своими данными
 // И по одному методу, который выполняет любое математическое действие со свойством корневого класса и своим свойством
 
-// наследник наследника 1
-
+// Наследник наследника 1
 class GrandChild1 extends Child1 {
     private $grandChildProperty;
 
@@ -109,21 +119,7 @@ class GrandChild1 extends Child1 {
     }
 
     public function divideProperties() {
-        return $this->childProperty / $this->grandChildProperty;
-    }
-}
-
-// наследник наследника 2
-
-class GrandChild2 extends Child1 {
-    private $grandChildProperty;
-
-    public function getGrandChildProperty() {
-        return $this->grandChildProperty;
-    }
-
-    public function setGrandChildProperty($value) {
-        $this->grandChildProperty = $value;
+        return $this->getChildProperty() / $this->grandChildProperty;
     }
 
     public function addParentAndGrandChildProperties() {
@@ -131,9 +127,8 @@ class GrandChild2 extends Child1 {
     }
 }
 
-// наследник наследника 3
-
-class GrandChild3 extends Child2 {
+// Наследник наследника 2
+class GrandChild2 extends Child1 {
     private $grandChildProperty;
 
     public function getGrandChildProperty() {
@@ -149,8 +144,7 @@ class GrandChild3 extends Child2 {
     }
 }
 
-// пример вывода
-
+// Пример вывода
 $grandChild1 = new GrandChild1();
 $grandChild1->setProperty1(20);
 $grandChild1->setChildProperty(10);
@@ -161,4 +155,6 @@ var_dump($grandChild1->getChildProperty());
 var_dump($grandChild1->getGrandChildProperty());
 
 // 10 / 2 = 5
-var_dump($grandChild1->divideProperties());
+var_dump($grandChild1->divideProperties()); // 10 / 2 = 5
+// 20 + 2 = 22
+var_dump($grandChild1->addParentAndGrandChildProperties());
