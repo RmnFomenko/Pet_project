@@ -1,7 +1,7 @@
 <?php
 
-require_once "ParentClass.php";
-class Child1 extends ParentClass {
+namespace App;
+final class Child3 extends ParentClass {
     private $childProperty;
 
     public function getChildProperty() {
@@ -12,8 +12,8 @@ class Child1 extends ParentClass {
         $this->childProperty = $value;
     }
 
-    public function addProperties() {
-        return $this->getProperty1() + $this->childProperty;
+    public function multiplyProperties() {
+        return $this->getProperty1() * $this->childProperty;
     }
 
     // Реализация абстракции

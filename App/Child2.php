@@ -1,5 +1,7 @@
 <?php
-final class Child3 extends ParentClass {
+
+namespace App;
+class Child2 extends ParentClass {
     private $childProperty;
 
     public function getChildProperty() {
@@ -10,8 +12,8 @@ final class Child3 extends ParentClass {
         $this->childProperty = $value;
     }
 
-    public function multiplyProperties() {
-        return $this->getProperty1() * $this->childProperty;
+    public function subtractProperties() {
+        return $this->getProperty2() - $this->childProperty;
     }
 
     // Реализация абстракции

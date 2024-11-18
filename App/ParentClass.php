@@ -1,4 +1,6 @@
 <?php
+
+namespace App;
 abstract class ParentClass {
     private $property1;
     private $property2;

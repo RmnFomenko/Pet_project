@@ -1,4 +1,6 @@
 <?php
+
+namespace App;
 class GrandChild2 extends Child1 {
     private $grandChildProperty;
 
