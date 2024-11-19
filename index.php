@@ -1,5 +1,6 @@
 <?php
 require('vendor/autoload.php');
-use App\GrandChild1;
-$obj = new GrandChild1();
-var_dump($obj);
+
+echo '<pre>';
+var_dump($_SERVER["REQUEST_URI"] ?? 'Test');
+echo '</pre>';
