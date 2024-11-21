@@ -1,6 +1,5 @@
 <?php
-require('vendor/autoload.php');
-
-echo '<pre>';
-var_dump($_SERVER["REQUEST_URI"] ?? 'Test');
-echo '</pre>';
+require_once('vendor/autoload.php');
+use App\Core\Router;
+$router = new Router();
+$router->run();

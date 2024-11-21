@@ -21,12 +21,11 @@ class ComposerStaticInit326ce4e53a386d8b27fca6959f8f7773
     );
 
     public static $classMap = array (
-        'App\\Child1' => __DIR__ . '/../..' . '/App/Child1.php',
-        'App\\Child2' => __DIR__ . '/../..' . '/App/Child2.php',
-        'App\\Child3' => __DIR__ . '/../..' . '/App/Child3.php',
-        'App\\GrandChild1' => __DIR__ . '/../..' . '/App/GrandChild1.php',
-        'App\\GrandChild2' => __DIR__ . '/../..' . '/App/GrandChild2.php',
-        'App\\ParentClass' => __DIR__ . '/../..' . '/App/ParentClass.php',
+        'App\\Controllers\\About' => __DIR__ . '/../..' . '/App/Controllers/About.php',
+        'App\\Controllers\\Error' => __DIR__ . '/../..' . '/App/Controllers/Error.php',
+        'App\\Controllers\\Gallery' => __DIR__ . '/../..' . '/App/Controllers/Gallery.php',
+        'App\\Controllers\\Main' => __DIR__ . '/../..' . '/App/Controllers/Main.php',
+        'App\\Core\\Router' => __DIR__ . '/../..' . '/App/Core/Router.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
 
