@@ -26,6 +26,7 @@ class ComposerStaticInit326ce4e53a386d8b27fca6959f8f7773
         'App\\Controllers\\Gallery' => __DIR__ . '/../..' . '/App/Controllers/Gallery.php',
         'App\\Controllers\\Main' => __DIR__ . '/../..' . '/App/Controllers/Main.php',
         'App\\Core\\Router' => __DIR__ . '/../..' . '/App/Core/Router.php',
+        'App\\Core\\Viewer' => __DIR__ . '/../..' . '/App/Core/Viewer.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
 

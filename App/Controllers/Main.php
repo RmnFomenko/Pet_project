@@ -2,20 +2,22 @@
 
 namespace App\Controllers;
 
-class Main
+use App\Core\Viewer;
+
+class Main extends Controller
 {
     public function index()
     {
-        echo 'This is Main page';
+        $this->data = [
+            'test' => 'Main',
+            'test1' => 'About',
+        ];
+
+        $this->public_view();
     }
 
-    public function create()
+    public function show_text()
     {
-        echo 'This is page Main Create';
-    }
-
-    public function delete()
-    {
-        echo 'This is page Main Delete';
+        echo 'Its the second method';
     }
 }
