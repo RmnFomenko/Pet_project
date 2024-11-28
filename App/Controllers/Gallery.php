@@ -2,12 +2,10 @@
 
 namespace App\Controllers;
 
-
 class Gallery extends Controller
 {
-    public function view()
+    public function view() // метод view, а не index
     {
-
         $this->public_view('gallery/gallery-main');
     }
 
@@ -21,3 +19,5 @@ class Gallery extends Controller
         echo 'This is page Gallery Delete';
     }
 }
+
+

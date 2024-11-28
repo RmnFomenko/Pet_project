@@ -1,8 +1,8 @@
 <header>
     <nav>
         <ul>
-            <li>Main</li>
-            <li>About</li>
+            <li><a href="/main/">Main</a></li>
+            <li><a href="/gallery/">Gallery</a></li>
         </ul>
     </nav>
 </header>

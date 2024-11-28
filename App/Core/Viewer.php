@@ -24,4 +24,5 @@ class Viewer
     {
         include __DIR__ . '/../../public/templates/template-admin.php';
     }
+
 }
