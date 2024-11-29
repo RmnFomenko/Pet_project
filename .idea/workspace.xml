@@ -51,7 +51,6 @@
     &quot;PHP Script.index.php.executor&quot;: &quot;Run&quot;,
     &quot;PHP Web Page.Test Local.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;91fc6a69&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/OSPanel/modules/PHP-8.3/PHP/php.ini&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -126,7 +125,7 @@
       <workItem from="1732804994138" duration="10625000" />
       <workItem from="1732816170424" duration="218000" />
       <workItem from="1732885500969" duration="9204000" />
-      <workItem from="1732896306198" duration="295000" />
+      <workItem from="1732896306198" duration="1353000" />
     </task>
     <task id="LOCAL-00001" summary="Home Work #3">
       <option name="closed" value="true" />
