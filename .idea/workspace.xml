@@ -75,9 +75,9 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="PHPUnit.Test" />
       <item itemvalue="PHP Script.index.php" />
       <item itemvalue="PHP Web Page.Test Local" />
+      <item itemvalue="PHPUnit.Test" />
     </list>
     <recent_temporary>
       <list>
@@ -126,6 +126,7 @@
       <workItem from="1732804994138" duration="10625000" />
       <workItem from="1732816170424" duration="218000" />
       <workItem from="1732885500969" duration="9204000" />
+      <workItem from="1732896306198" duration="295000" />
     </task>
     <task id="LOCAL-00001" summary="Home Work #3">
       <option name="closed" value="true" />
