@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1efb9db1-ce37-4a35-8c97-d0efcfa9a9e1" name="Changes" comment="Home Work #8, MVC, Controller, View" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <interpreter composer="composer" />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="test.local" id="3fd6ad32-5af5-413c-ae1a-8c803b6311c1" name="OpenServer" use_path_mappings="true" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2oO0w1YO1LpQk8dZHJIoWUUAUlq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;PHP Script.index.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Web Page.Test Local.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;91fc6a69&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/OSPanel/modules/PHP-8.3/PHP/php.ini&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="PHP Web Page.Test Local">
+    <configuration name="Test" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/index.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="Test Local" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="OpenServer">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="PHPUnit.Test" />
+      <item itemvalue="PHP Script.index.php" />
+      <item itemvalue="PHP Web Page.Test Local" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.index.php" />
+        <item itemvalue="PHPUnit.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-PS-241.15989.102" />
+        <option value="bundled-php-predefined-ba97393d7c68-c76157a7178b-com.jetbrains.php.sharedIndexes-PS-241.15989.102" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1efb9db1-ce37-4a35-8c97-d0efcfa9a9e1" name="Changes" comment="" />
+      <created>1730725551709</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730725551709</updated>
+      <workItem from="1730725556234" duration="336000" />
+      <workItem from="1730827675497" duration="2670000" />
+      <workItem from="1730968582696" duration="1162000" />
+      <workItem from="1730969848899" duration="695000" />
+      <workItem from="1730981398361" duration="4295000" />
+      <workItem from="1730994467857" duration="258000" />
+      <workItem from="1731047018191" duration="422000" />
+      <workItem from="1731056118430" duration="2542000" />
+      <workItem from="1731399597483" duration="500000" />
+      <workItem from="1731658154074" duration="187000" />
+      <workItem from="1731691217237" duration="3610000" />
+      <workItem from="1731694894259" duration="1840000" />
+      <workItem from="1731699408616" duration="53000" />
+      <workItem from="1731699606748" duration="251000" />
+      <workItem from="1731699954038" duration="25000" />
+      <workItem from="1731931841127" duration="5427000" />
+      <workItem from="1732036673097" duration="7346000" />
+      <workItem from="1732186954568" duration="7357000" />
+      <workItem from="1732295505364" duration="4026000" />
+      <workItem from="1732549783466" duration="1858000" />
+      <workItem from="1732641507934" duration="3223000" />
+      <workItem from="1732804994138" duration="10625000" />
+      <workItem from="1732816170424" duration="218000" />
+      <workItem from="1732885500969" duration="9204000" />
+    </task>
+    <task id="LOCAL-00001" summary="Home Work #3">
+      <option name="closed" value="true" />
+      <created>1730981574826</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730981574826</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Home Work #3">
+      <option name="closed" value="true" />
+      <created>1730981693434</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730981693434</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Home Work #3">
+      <option name="closed" value="true" />
+      <created>1730994298323</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730994298323</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Lesson 3 - home work">
+      <option name="closed" value="true" />
+      <created>1730994514304</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1730994514304</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Adding conditions to a solution">
+      <option name="closed" value="true" />
+      <created>1731047115181</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731047115181</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Adding &lt;br/&gt; and task question">
+      <option name="closed" value="true" />
+      <created>1731058531663</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731058531663</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Home Work #4">
+      <option name="closed" value="true" />
+      <created>1731399846648</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1731399846648</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Home Work #5 - Classes">
+      <option name="closed" value="true" />
+      <created>1731658258148</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1731658258148</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Home Work #5 - Classes">
+      <option name="closed" value="true" />
+      <created>1731658272110</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1731658272110</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Home Work #5 - Classes">
+      <option name="closed" value="true" />
+      <created>1731691364020</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1731691364020</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Home Work #5 - Classes">
+      <option name="closed" value="true" />
+      <created>1731692367800</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1731692367800</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Composer">
+      <option name="closed" value="true" />
+      <created>1731948876344</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1731948876345</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Composer">
+      <option name="closed" value="true" />
+      <created>1732040257909</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1732040257909</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Add router home work">
+      <option name="closed" value="true" />
+      <created>1732199505458</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1732199505458</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Home Work #7">
+      <option name="closed" value="true" />
+      <created>1732551498406</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1732551498406</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Class lesson #9">
+      <option name="closed" value="true" />
+      <created>1732809517669</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1732809517670</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Class lesson #9 update">
+      <option name="closed" value="true" />
+      <created>1732812874793</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1732812874794</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Class lesson #9 update">
+      <option name="closed" value="true" />
+      <created>1732894601588</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1732894601589</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Home Work #8, MVC, Controller, View">
+      <option name="closed" value="true" />
+      <created>1732895540354</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1732895540354</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Home Work #8, MVC, Controller, View">
+      <option name="closed" value="true" />
+      <created>1732895765367</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1732895765367</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Home Work #3" />
+    <MESSAGE value="Lesson 3 - home work" />
+    <MESSAGE value="Adding conditions to a solution" />
+    <MESSAGE value="Adding &lt;br/&gt; and task question" />
+    <MESSAGE value="Home Work #4" />
+    <MESSAGE value="Home Work #5 - Classes - ADD abstract class + function" />
+    <MESSAGE value="Home Work #5 - Classes" />
+    <MESSAGE value="Composer" />
+    <MESSAGE value="Add router home work" />
+    <MESSAGE value="Home Work #7" />
+    <MESSAGE value="Class lesson #9" />
+    <MESSAGE value="Class lesson #9 update" />
+    <MESSAGE value="Home Work #8, MVC, Controller, View" />
+    <option name="LAST_COMMIT_MESSAGE" value="Home Work #8, MVC, Controller, View" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
