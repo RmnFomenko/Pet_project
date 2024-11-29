@@ -9,7 +9,6 @@ class Router
         $url = $_SERVER['REQUEST_URI'];
         $url_array = array_values(array_filter(explode('/', $url)));
 
-        // Устанавливаем маршрут по умолчанию
         $controller_name = 'Main';
         $method_name = 'index';
 

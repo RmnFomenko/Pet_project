@@ -8,7 +8,7 @@
 </head>
 <body>
 <?php include __DIR__ . '/../parts/header.php'; ?>
-<?php include __DIR__ . '/../parts/admin/admin-panel.php'; ?> <!-- Шаблон админ панели -->
+<?php include __DIR__ . '/../parts/admin/admin-panel.php'; ?>
 <?php include __DIR__ . '/../parts/footer.php'; ?>
 </body>
 </html>

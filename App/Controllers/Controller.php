@@ -12,13 +12,13 @@ class Controller
     {
         $view = new Viewer();
         $view->setData($this->data);
-        $view->include_public_template($part_name); // Отображаем публичный шаблон
+        $view->include_public_template($part_name);
     }
 
     public function admin_view(string $part_name = 'admin')
     {
         $view = new Viewer();
         $view->setData($this->data);
-        $view->include_admin_template($part_name); // Отображаем админ шаблон
+        $view->include_admin_template($part_name);
     }
 }

@@ -6,11 +6,10 @@ class Admin extends Controller
 {
     public function redact()
     {
-        $this->data['admin_message'] = 'Welcome to the Admin Redactor Page'; // Добавление сообщения
-        $this->admin_view('admin/admin-panel'); // Передаем имя шаблона
+        $this->data['admin_message'] = 'Welcome to the Admin Redactor Page';
+        $this->admin_view('admin/admin-panel');
     }
 
-    // Новый метод index для маршрута 'admin/index'
     public function index()
     {
         echo 'Welcome to the Admin Home Page';
