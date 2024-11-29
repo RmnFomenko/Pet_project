@@ -12,17 +12,16 @@ class Viewer
         $this->data = $data;
     }
 
+    // Метод для подключения публичного шаблона
     public function include_public_template(string $part_name = 'main'): void
     {
-        // Делаем $data доступной в шаблоне
         extract($this->data);
-
         include __DIR__ . '/../../public/templates/template-public.php';
     }
 
-    public function include_admin_template(): void
+    // Метод для подключения админского шаблона
+    public function include_admin_template(string $part_name = 'admin'): void
     {
-        include __DIR__ . '/../../public/templates/template-admin.php';
+        include __DIR__ . '/../../public/parts/' . $part_name . '.php'; // Подключаем шаблон из папки admin
     }
-
 }

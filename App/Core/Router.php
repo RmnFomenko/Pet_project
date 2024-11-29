@@ -4,51 +4,38 @@ namespace App\Core;
 
 class Router
 {
-    private array $request_uri = [];
-    private string $name_controller = 'main';
-    private string $name_method = 'index';
-    private array $config;
-
-    public function __construct(array $config)
+    public function run()
     {
-        $this->config = $config;
-        $this->processRequest();
-        $this->validate();
-    }
+        $url = $_SERVER['REQUEST_URI'];
+        $url_array = array_values(array_filter(explode('/', $url)));
 
-    private function processRequest(): void
-    {
-        $uri = $_SERVER['REQUEST_URI'] ?? '/'; // Получаем URI
-        $uri = trim($uri, '/'); // Убираем начальные и конечные слэши
-        $this->request_uri = $uri ? explode('/', $uri) : ['main', 'index']; // Если пусто — назначаем main/index
+        // Устанавливаем маршрут по умолчанию
+        $controller_name = 'Main';
+        $method_name = 'index';
 
-        $this->name_controller = strtolower($this->request_uri[0] ?? 'main'); // Первый сегмент — контроллер
-        $this->name_method = strtolower($this->request_uri[1] ?? 'index'); // Второй сегмент — метод
-    }
-
-    private function validate(): void
-    {
-        $controller_method = "{$this->name_controller}/{$this->name_method}";
-
-        if (!isset($this->config[$controller_method])) {
-            $controller_method = 'error/index'; // Если такого метода нет, подключаем ошибку
+        if (!empty($url_array[0])) {
+            $controller_name = ucfirst($url_array[0]);
+            $method_name = $url_array[1] ?? 'index';
         }
 
-        // Разбираем и назначаем контроллер и метод
-        list($this->name_controller, $this->name_method) = explode('/', $this->config[$controller_method]);
-    }
+        $routes = include __DIR__ . '/../../Config/controller.php';
 
-    public function run(): void
-    {
-        $controller_class = "App\\Controllers\\" . ucfirst($this->name_controller);
-        $method = $this->name_method;
+        $route_key = strtolower("{$controller_name}/{$method_name}");
 
-        if (class_exists($controller_class) && method_exists($controller_class, $method)) {
+        if (!array_key_exists($route_key, $routes)) {
+            $controller_name = 'Error';
+            $method_name = 'index';
+        } else {
+            list($controller_name, $method_name) = explode('/', $routes[$route_key]);
+        }
+
+        $controller_class = "App\\Controllers\\$controller_name";
+
+        if (class_exists($controller_class) && method_exists($controller_class, $method_name)) {
             $controller = new $controller_class();
-            $controller->$method();
+            $controller->$method_name();
         } else {
             echo "Controller or method not found!";
         }
     }
 }
-

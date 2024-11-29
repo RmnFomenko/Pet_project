@@ -13,7 +13,7 @@ class Main extends Controller
             'test1' => 'About',
         ];
 
-        $this->public_view();
+        $this->public_view(); // Отображаем основной шаблон
     }
 
     public function show_text()
@@ -21,3 +21,4 @@ class Main extends Controller
         echo 'Its the second method';
     }
 }
+

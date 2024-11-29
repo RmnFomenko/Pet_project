@@ -6,6 +6,6 @@ return [
     'about/index' => 'About/index',
     'gallery/index' => 'Gallery/view',
     'error/index' => 'Error/index',
+    'admin/index' => 'Admin/index', // Новый маршрут для admin/index
+    'admin/redact' => 'Admin/redact', // Уже добавленный маршрут
 ];
-
-

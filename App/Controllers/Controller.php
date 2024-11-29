@@ -11,8 +11,14 @@ class Controller
     public function public_view(string $part_name = 'main')
     {
         $view = new Viewer();
-        $view->setData($this->data); // Устанавливаем данные
-        $view->include_public_template($part_name); // Вызываем метод объекта
+        $view->setData($this->data);
+        $view->include_public_template($part_name); // Отображаем публичный шаблон
     }
 
+    public function admin_view(string $part_name = 'admin')
+    {
+        $view = new Viewer();
+        $view->setData($this->data);
+        $view->include_admin_template($part_name); // Отображаем админ шаблон
+    }
 }
