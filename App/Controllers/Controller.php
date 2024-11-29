@@ -22,3 +22,5 @@ class Controller
         $view->include_admin_template($part_name);
     }
 }
+
+

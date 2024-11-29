@@ -20,6 +20,11 @@ class Viewer
 
     public function include_admin_template(string $part_name = 'admin'): void
     {
+        extract($this->data);
         include __DIR__ . '/../../public/parts/' . $part_name . '.php';
     }
+
+
+
+
 }

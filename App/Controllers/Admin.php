@@ -10,8 +10,11 @@ class Admin extends Controller
         $this->admin_view('admin/admin-panel');
     }
 
+
     public function index()
     {
         echo 'Welcome to the Admin Home Page';
     }
 }
+
+
