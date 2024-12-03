@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Controllers;
+namespace App\Controllers\Public;
 
-use App\Core\Viewer;
+use App\Controllers\Controller;
 
 class Main extends Controller
 {
@@ -18,7 +18,6 @@ class Main extends Controller
 
     public function show_text()
     {
-        echo 'Its the second method';
+        echo 'It\'s the second method';
     }
 }
-

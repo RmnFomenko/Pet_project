@@ -24,7 +24,4 @@ class Viewer
         include __DIR__ . '/../../public/parts/' . $part_name . '.php';
     }
 
-
-
-
 }

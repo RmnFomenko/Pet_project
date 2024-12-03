@@ -4,13 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1efb9db1-ce37-4a35-8c97-d0efcfa9a9e1" name="Changes" comment="Home Work #8, MVC, Controller, View">
+    <list default="true" id="1efb9db1-ce37-4a35-8c97-d0efcfa9a9e1" name="Changes" comment=" Промежуточный коммит">
+      <change afterPath="$PROJECT_DIR$/App/Controllers/Admin/Admin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Controllers/Admin/Dashboard.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Controllers/Admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Controllers/Admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Controllers/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Controllers/About.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Controllers/Public/About.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Controllers/Admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Controllers/Error.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Controllers/Public/Error.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Controllers/Gallery.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Controllers/Public/Gallery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Controllers/Main.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Controllers/Public/Main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Core/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Core/Router.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/Core/Viewer.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Core/Viewer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Config/controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/Config/controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Public/Parts/admin/admin-panel.php" beforeDir="false" afterPath="$PROJECT_DIR$/Public/Parts/admin/admin-panel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Parts/Header.php" beforeDir="false" afterPath="$PROJECT_DIR$/Public/Parts/Header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +25,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
-    <pharConfigPath>$PROJECT_DIR$/restored-repo/composer.json</pharConfigPath>
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <interpreter composer="composer" />
     </execution>
@@ -54,23 +61,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "PHP Script.index.php.executor": "Run",
-    "PHP Web Page.Test Local.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/OSPanel/modules/PHP-8.3/PHP/php.ini",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.sync",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;PHP Script.index.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Web Page.Test Local.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/OSPanel/modules/PHP-8.3/PHP/php.ini&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OSPanel\home\Test\App\Controllers\Admin" />
+      <recent name="D:\OSPanel\home\Test\App\Controllers\Public" />
+    </key>
+  </component>
   <component name="RunManager" selected="PHP Web Page.Test Local">
     <configuration name="Test" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner directory="$PROJECT_DIR$" />
@@ -135,7 +148,8 @@
       <workItem from="1732816170424" duration="218000" />
       <workItem from="1732885500969" duration="9204000" />
       <workItem from="1732896306198" duration="1353000" />
-      <workItem from="1732897688497" duration="2210000" />
+      <workItem from="1732897688497" duration="2900000" />
+      <workItem from="1733221046697" duration="1619000" />
     </task>
     <task id="LOCAL-00001" summary="Home Work #3">
       <option name="closed" value="true" />
@@ -313,7 +327,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732897959866</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary=" Промежуточный коммит">
+      <option name="closed" value="true" />
+      <created>1732902847658</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1732902847658</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,7 +366,8 @@
     <MESSAGE value="Class lesson #9" />
     <MESSAGE value="Class lesson #9 update" />
     <MESSAGE value="Home Work #8, MVC, Controller, View" />
-    <option name="LAST_COMMIT_MESSAGE" value="Home Work #8, MVC, Controller, View" />
+    <MESSAGE value=" Промежуточный коммит" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Промежуточный коммит" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
