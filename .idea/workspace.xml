@@ -4,20 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1efb9db1-ce37-4a35-8c97-d0efcfa9a9e1" name="Changes" comment=" Промежуточный коммит">
-      <change afterPath="$PROJECT_DIR$/App/Controllers/Admin/Admin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Controllers/Admin/Dashboard.php" afterDir="false" />
+    <list default="true" id="1efb9db1-ce37-4a35-8c97-d0efcfa9a9e1" name="Changes" comment="Commit home work mvc controller view">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Controllers/About.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Controllers/Public/About.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Controllers/Admin.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Controllers/Error.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Controllers/Public/Error.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Controllers/Gallery.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Controllers/Public/Gallery.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Controllers/Main.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Controllers/Public/Main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Core/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Core/Router.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Core/Viewer.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Core/Viewer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/Config/controller.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Public/Parts/Header.php" beforeDir="false" afterPath="$PROJECT_DIR$/Public/Parts/Header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +146,7 @@
       <workItem from="1732885500969" duration="9204000" />
       <workItem from="1732896306198" duration="1353000" />
       <workItem from="1732897688497" duration="2900000" />
-      <workItem from="1733221046697" duration="1619000" />
+      <workItem from="1733221046697" duration="2573000" />
     </task>
     <task id="LOCAL-00001" summary="Home Work #3">
       <option name="closed" value="true" />
@@ -335,7 +332,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732902847658</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Commit home work mvc controller view">
+      <option name="closed" value="true" />
+      <created>1733222938051</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1733222938051</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,7 +372,8 @@
     <MESSAGE value="Class lesson #9 update" />
     <MESSAGE value="Home Work #8, MVC, Controller, View" />
     <MESSAGE value=" Промежуточный коммит" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Промежуточный коммит" />
+    <MESSAGE value="Commit home work mvc controller view" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit home work mvc controller view" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
