@@ -3,21 +3,14 @@
 namespace App\Controllers\Public;
 
 use App\Controllers\Controller;
+use App\Models\Post;
 
 class Main extends Controller
 {
     public function index()
     {
-        $this->data = [
-            'test' => 'Main',
-            'test1' => 'About',
-        ];
-
-        $this->public_view();
-    }
-
-    public function show_text()
-    {
-        echo 'It\'s the second method';
+        $postModel = new Post();
+        $this->data['posts'] = $postModel->getAll();
+        $this->public_view('main');
     }
 }
