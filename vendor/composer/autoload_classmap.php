@@ -8,6 +8,11 @@ $baseDir = dirname($vendorDir);
 return array(
     'App\\Controllers\\Admin\\Admin' => $baseDir . '/App/Controllers/Admin/Admin.php',
     'App\\Controllers\\Admin\\Dashboard' => $baseDir . '/App/Controllers/Admin/Dashboard.php',
+    'App\\Controllers\\Admin\\Gallery' => $baseDir . '/App/Controllers/Admin/Gallery.php',
+    'App\\Controllers\\Admin\\GalleryCategory' => $baseDir . '/App/Controllers/Admin/GalleryCategory.php',
+    'App\\Controllers\\Admin\\Post' => $baseDir . '/App/Controllers/Admin/Post.php',
+    'App\\Controllers\\Admin\\PostCategory' => $baseDir . '/App/Controllers/Admin/PostCategory.php',
+    'App\\Controllers\\Admin\\User' => $baseDir . '/App/Controllers/Admin/User.php',
     'App\\Controllers\\Controller' => $baseDir . '/App/Controllers/Controller.php',
     'App\\Controllers\\Public\\About' => $baseDir . '/App/Controllers/Public/About.php',
     'App\\Controllers\\Public\\Error' => $baseDir . '/App/Controllers/Public/Error.php',
@@ -15,5 +20,10 @@ return array(
     'App\\Controllers\\Public\\Main' => $baseDir . '/App/Controllers/Public/Main.php',
     'App\\Core\\Router' => $baseDir . '/App/Core/Router.php',
     'App\\Core\\Viewer' => $baseDir . '/App/Core/Viewer.php',
+    'App\\Models\\Gallery' => $baseDir . '/App/Models/Gallery.php',
+    'App\\Models\\GalleryCategory' => $baseDir . '/App/Models/GalleryCategory.php',
+    'App\\Models\\Post' => $baseDir . '/App/Models/Post.php',
+    'App\\Models\\PostCategory' => $baseDir . '/App/Models/PostCategory.php',
+    'App\\Models\\User' => $baseDir . '/App/Models/User.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
 );

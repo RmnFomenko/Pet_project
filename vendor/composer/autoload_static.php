@@ -23,6 +23,11 @@ class ComposerStaticInit326ce4e53a386d8b27fca6959f8f7773
     public static $classMap = array (
         'App\\Controllers\\Admin\\Admin' => __DIR__ . '/../..' . '/App/Controllers/Admin/Admin.php',
         'App\\Controllers\\Admin\\Dashboard' => __DIR__ . '/../..' . '/App/Controllers/Admin/Dashboard.php',
+        'App\\Controllers\\Admin\\Gallery' => __DIR__ . '/../..' . '/App/Controllers/Admin/Gallery.php',
+        'App\\Controllers\\Admin\\GalleryCategory' => __DIR__ . '/../..' . '/App/Controllers/Admin/GalleryCategory.php',
+        'App\\Controllers\\Admin\\Post' => __DIR__ . '/../..' . '/App/Controllers/Admin/Post.php',
+        'App\\Controllers\\Admin\\PostCategory' => __DIR__ . '/../..' . '/App/Controllers/Admin/PostCategory.php',
+        'App\\Controllers\\Admin\\User' => __DIR__ . '/../..' . '/App/Controllers/Admin/User.php',
         'App\\Controllers\\Controller' => __DIR__ . '/../..' . '/App/Controllers/Controller.php',
         'App\\Controllers\\Public\\About' => __DIR__ . '/../..' . '/App/Controllers/Public/About.php',
         'App\\Controllers\\Public\\Error' => __DIR__ . '/../..' . '/App/Controllers/Public/Error.php',
@@ -30,6 +35,11 @@ class ComposerStaticInit326ce4e53a386d8b27fca6959f8f7773
         'App\\Controllers\\Public\\Main' => __DIR__ . '/../..' . '/App/Controllers/Public/Main.php',
         'App\\Core\\Router' => __DIR__ . '/../..' . '/App/Core/Router.php',
         'App\\Core\\Viewer' => __DIR__ . '/../..' . '/App/Core/Viewer.php',
+        'App\\Models\\Gallery' => __DIR__ . '/../..' . '/App/Models/Gallery.php',
+        'App\\Models\\GalleryCategory' => __DIR__ . '/../..' . '/App/Models/GalleryCategory.php',
+        'App\\Models\\Post' => __DIR__ . '/../..' . '/App/Models/Post.php',
+        'App\\Models\\PostCategory' => __DIR__ . '/../..' . '/App/Models/PostCategory.php',
+        'App\\Models\\User' => __DIR__ . '/../..' . '/App/Models/User.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
 

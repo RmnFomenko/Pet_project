@@ -3,13 +3,15 @@
 return [
     // Публичная зона
     'public/main/index' => 'Main/index',
-    'public/main/show_text' => 'Main/show_text',
     'public/gallery/index' => 'Gallery/view',
-    'public/error/index' => 'Error/index',
+    'public/about/index' => 'About/index',
+
 
     // Админ зона
-    'admin/admin/index' => 'Admin/index',
-    'admin/admin/redact' => 'Admin/redact',
-    'admin/dashboard/index' => 'Dashboard/index',
-    'admin/dashboard/redact' => 'Dashboard/redact',
+    'admin/user/index' => 'User/index',
+    'admin/post/index' => 'Post/index',
+    'admin/postcategory/index' => 'PostCategory/index',
+    'admin/gallery/index' => 'Gallery/index',
+    'admin/gallerycategory/index' => 'GalleryCategory/index',
 ];
+

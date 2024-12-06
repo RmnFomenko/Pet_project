@@ -1,5 +1,5 @@
 <main>
-    <h1>Main Page</h1>
+    <h1>Posts</h1>
     <?php if (!empty($posts)): ?>
         <ul>
             <?php foreach ($posts as $post): ?>

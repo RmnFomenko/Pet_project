@@ -5,15 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1efb9db1-ce37-4a35-8c97-d0efcfa9a9e1" name="Changes" comment="Commit home work mvc controller view">
+      <change afterPath="$PROJECT_DIR$/App/Controllers/Admin/Gallery.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Controllers/Admin/GalleryCategory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Controllers/Admin/Post.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Controllers/Admin/PostCategory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Controllers/Admin/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Models/Gallery.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Models/GalleryCategory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Models/Post.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Models/PostCategory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Parts/About.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Parts/admin/Gallery/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Parts/admin/GalleryCategory/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Parts/admin/Post/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Parts/admin/User/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Controllers/Public/About.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Controllers/Public/About.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Controllers/Public/Main.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Controllers/Public/Main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/Config/controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Parts/Gallery/Gallery-main.php" beforeDir="false" afterPath="$PROJECT_DIR$/Public/Parts/Gallery/Gallery-main.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Public/Parts/Header.php" beforeDir="false" afterPath="$PROJECT_DIR$/Public/Parts/Header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Parts/Main.php" beforeDir="false" afterPath="$PROJECT_DIR$/Public/Parts/Main.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,23 +71,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;PHP Script.index.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP Web Page.Test Local.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/OSPanel/modules/PHP-8.3/PHP/php.ini&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "PHP Script.index.php.executor": "Run",
+    "PHP Web Page.Test Local.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "task9",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/OSPanel/modules/PHP-8.3/PHP/php.ini",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.sync",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\OSPanel\home\Test\App\Controllers\Admin" />
@@ -147,6 +160,7 @@
       <workItem from="1732896306198" duration="1353000" />
       <workItem from="1732897688497" duration="2900000" />
       <workItem from="1733221046697" duration="2573000" />
+      <workItem from="1733395748184" duration="4665000" />
     </task>
     <task id="LOCAL-00001" summary="Home Work #3">
       <option name="closed" value="true" />
