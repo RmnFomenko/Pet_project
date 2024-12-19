@@ -2,7 +2,7 @@
 
 namespace App\Models;
 
-class User
+class Users
 {
     public function getAll(): array
     {
