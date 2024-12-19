@@ -2,13 +2,26 @@
 
 namespace App\Models;
 
+use PDO;
+
 class Gallery
 {
-    public function getAll()
+    private PDO $pdo;
+
+    public function __construct()
     {
-        return [
-            ['image' => 'image1.jpg', 'description' => 'First image'],
-            ['image' => 'image2.jpg', 'description' => 'Second image'],
-        ];
+        $this->pdo = (new \App\Sql\Connector())->connect();
+    }
+
+    public function getAll(): array
+    {
+        $stmt = $this->pdo->query("SELECT * FROM gallery");
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
+
+    public function insert(array $data): bool
+    {
+        $insert = new Insert($this->pdo, 'gallery');
+        return $insert->execute($data);
     }
 }

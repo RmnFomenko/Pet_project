@@ -4,30 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1efb9db1-ce37-4a35-8c97-d0efcfa9a9e1" name="Changes" comment="Commit home work mvc controller view">
-      <change afterPath="$PROJECT_DIR$/App/Controllers/Admin/Gallery.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Controllers/Admin/GalleryCategory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Controllers/Admin/Post.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Controllers/Admin/PostCategory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Controllers/Admin/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Models/Gallery.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Models/GalleryCategory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Models/Post.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Models/PostCategory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Parts/About.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Parts/admin/Gallery/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Parts/admin/GalleryCategory/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Parts/admin/Post/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Parts/admin/User/index.php" afterDir="false" />
+    <list default="true" id="1efb9db1-ce37-4a35-8c97-d0efcfa9a9e1" name="Changes" comment="BD PDO">
+      <change afterPath="$PROJECT_DIR$/App/SQL/Delete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/SQL/Insert.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/SQL/Select.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/SQL/Update.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/SQL/Where.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Parts/admin/Gallery/gallery-create.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Controllers/Public/About.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Controllers/Public/About.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Controllers/Admin/Gallery.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Controllers/Admin/Gallery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Controllers/Admin/GalleryCategory.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Controllers/Admin/GalleryCategory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Controllers/Admin/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Controllers/Admin/Posts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Controllers/Admin/PostCategory.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Controllers/Admin/CategoryPosts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Controllers/Admin/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Controllers/Admin/Users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Controllers/Controller.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/Controllers/Public/Main.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Controllers/Public/Main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Models/GalleryCategory.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Models/CategoryGallery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Models/Posts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Models/PostCategory.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Models/CategoryPosts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Models/Users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/SQL/Connector.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/SQL/Connector.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Config/controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/Config/controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Public/Parts/Gallery/Gallery-main.php" beforeDir="false" afterPath="$PROJECT_DIR$/Public/Parts/Gallery/Gallery-main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Public/Parts/Header.php" beforeDir="false" afterPath="$PROJECT_DIR$/Public/Parts/Header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Public/Parts/Main.php" beforeDir="false" afterPath="$PROJECT_DIR$/Public/Parts/Main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,13 +34,13 @@
   <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
-      <interpreter composer="composer" />
+      <executable path="composer" />
     </execution>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="task9" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,7 +48,7 @@
   </component>
   <component name="PhpServers">
     <servers>
-      <server host="test.local" id="3fd6ad32-5af5-413c-ae1a-8c803b6311c1" name="OpenServer" use_path_mappings="true" />
+      <server host="test.local" id="3fd6ad32-5af5-413c-ae1a-8c803b6311c1" name="test.local" use_path_mappings="true" />
     </servers>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
@@ -76,15 +73,15 @@
     "PHP Script.index.php.executor": "Run",
     "PHP Web Page.Test Local.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "task9",
+    "git-widget-placeholder": "BD",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/OSPanel/modules/PHP-8.3/PHP/php.ini",
+    "last_opened_file_path": "C:/xampp/php/php.exe",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.sync",
+    "settings.editor.selected.configurable": "web.server",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -100,9 +97,14 @@
       <method v="2" />
     </configuration>
     <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/index.php">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
       <method v="2" />
     </configuration>
-    <configuration name="Test Local" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="OpenServer">
+    <configuration name="Test Local" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="test.local">
       <method v="2" />
     </configuration>
     <list>
@@ -160,7 +162,12 @@
       <workItem from="1732896306198" duration="1353000" />
       <workItem from="1732897688497" duration="2900000" />
       <workItem from="1733221046697" duration="2573000" />
-      <workItem from="1733395748184" duration="4665000" />
+      <workItem from="1733494248195" duration="10000" />
+      <workItem from="1733494709925" duration="2000" />
+      <workItem from="1733501104697" duration="3793000" />
+      <workItem from="1734437628605" duration="423000" />
+      <workItem from="1734441548260" duration="3315000" />
+      <workItem from="1734529557436" duration="12503000" />
     </task>
     <task id="LOCAL-00001" summary="Home Work #3">
       <option name="closed" value="true" />
@@ -354,7 +361,31 @@
       <option name="project" value="LOCAL" />
       <updated>1733222938051</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="HomeTask 9">
+      <option name="closed" value="true" />
+      <created>1733400884037</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1733400884037</updated>
+    </task>
+    <task id="LOCAL-00026" summary="BD PDO">
+      <option name="closed" value="true" />
+      <created>1734605729865</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1734605729865</updated>
+    </task>
+    <task id="LOCAL-00027" summary="BD PDO">
+      <option name="closed" value="true" />
+      <created>1734605748695</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1734605748695</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,7 +418,10 @@
     <MESSAGE value="Home Work #8, MVC, Controller, View" />
     <MESSAGE value=" Промежуточный коммит" />
     <MESSAGE value="Commit home work mvc controller view" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit home work mvc controller view" />
+    <MESSAGE value="HomeTask #9" />
+    <MESSAGE value="HomeTask 9" />
+    <MESSAGE value="BD PDO" />
+    <option name="LAST_COMMIT_MESSAGE" value="BD PDO" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

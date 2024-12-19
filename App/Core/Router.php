@@ -45,4 +45,5 @@ class Router
             echo "Controller or method not found!";
         }
     }
+
 }
